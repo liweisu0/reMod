@@ -3,13 +3,14 @@ const cors = require('cors');
 const morgan = require('morgan');
 const multer = require('multer'); // Middleware for handling file uploads
 const { Storage } = require('@google-cloud/storage');
+require('dotenv').config();
 
 // Initialize Multer for in-memory storage
 const upload = multer({ storage: multer.memoryStorage() });
 
 // Initialize Google Cloud Storage
 const storageGCS = new Storage();
-const bucket = storageGCS.bucket('your-bucket-name'); // Replace with your actual bucket name
+const bucket = storageGCS.bucket('romed-file-storage'); // Replace with your actual bucket name
 
 const app = express();
 const PORT = process.env.PORT || 3001;

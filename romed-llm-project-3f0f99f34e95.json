@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "romed-llm-project",
+  "private_key_id": "3f0f99f34e9570b037f01b2424c3b6d438ab4991",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDJzG+acCEtAQYk\nPhAsB3+NROMTgVi3UQEIwAT4GWrMXMKrQud3HsA5DtTBio8YpaPFb9iQragVHFHx\nOM4ovpy6h/dOgkiEpD5TZBY1e0ikidULuufSTlfO0hjTNwknenE1Do4zdFKgyNmD\nLpcoNFQDlyfKtnQCDY4Fbcc82imN5yLzEzr4kNriGsO/6KcOA/fT8lq0VlOerRkF\n7U0BxQfho7LfE8r5TfyFcdu33Q+8oFRBAXBZuHExMRBLd2G/eR4PkoYwZRvNL8aq\n6Lojq7V1kikV0uuGHmL5ho6Z45nVrPg8axOQLCrC7VQBCmv14aXvwUf2daeOBsjg\nlNNJuLgtAgMBAAECggEAJ2uMbJiVXn959ef6zEMNt2i6zBNjI3JLN6yc++MpMfE3\n5PEtmp8y8SJ0zLb2s5ud1aJ+5WpK8I7G8g6E9UAhCS4o0RkRtfmIpE0jqoBiBSRY\nrhEtmm9L516y00XHv8LDLRhiDmqdfoOlu+LEy+mG9OmY8Bg6qrD/qo9SkZBTeEDT\nDZZTH6MPomREqR997N2eU5TH7K/caK3x6fFWSi0kjGZRWw7OLUqMwZgVJCnSyS8F\n96lwNTMvsspXceZAeMs/ACh0KqrM10OhOtRQHnGnKn/n74nw+NIFylxs15ODdgqw\n5WBdIovgbZQgFcQRG1XOUgsXixJjmzI1i/DkCUv/yQKBgQDkOrX9O8O+VB7fsaSX\noyRvMcsNf+L/zQ9knvwqqNdpR4xxT3dCmQaYeSvLJOBf4a8rFvjC24biy0f1l518\nMP8OhDKMmATBZrSieAurUD+qabBgpFKBJ34nZvOfzR7/KX25Y0/BrIXxm4oPIY/X\nbC9MBWQiPk0cSJqvgqA1JgZJhQKBgQDiWmnGVZIXa+WajQKyHJnfQ6ILffjMCrgL\nDyMpJVqGoVosmibA9Ec/+K4r9uUsDaMOdxZVOccY1EfF4Kyh2j/Ga1EC2J7pdsD1\nkVS/dvU2OxPFPrpevxbMtZk2b+/ru3Qt/BSTah7VIyhOXlQYM6Iw4r3wR83yRsAv\nOF0HoxvgiQKBgQCD4kVuC04muteIbk/tbFHOi5iJuYAET4v4mkKfqCeqZ7UJeWEy\nM9ly3HppDms2HOUrYj/n4hGFFvEDQ1S3Al0xF0VapzIATIhPZk1f9qSDpkVM40fl\n6FtnC3/2tQKXcnN7YJ8jDL3uCvJxofRMCPEf3fGqNBQ9Jtt0VmibrdhuPQKBgAop\nQOJUaRCAGXiMp/hS7F1nbdjSON8ABC8K6Osp8BxnFeM2sFKtJJ2sjjUPCk6l9hHq\nKqh8xYFJ1kb9xQInCAHiQ2q7Srb0S8k6UvGdZ3idwk9yd29VaLKb3FrjP4P3kEmY\nLVxIwUWUJHUQKvpDJx7GrvwgXRBpOKtl/lcfbVrxAoGAFmHJnDD/Cu6G+B0cp+Tg\nhDVEm8SPPBryfiAuI1egDB4Bsts4gefFGy8sfT/TdguAoNKiK96C5mkSCw0JftTE\nFPmXgzprU+TrtSrvGge4z0LHJG6V46ZVMPKYm7OEGzCB2sAup4sLT8236zMWrqNy\nr/zd1vW/bZc7VCXQmjEwnGQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "romed-storage-object@romed-llm-project.iam.gserviceaccount.com",
+  "client_id": "101323424009349665928",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/romed-storage-object%40romed-llm-project.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
