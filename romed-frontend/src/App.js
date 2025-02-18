@@ -9,6 +9,8 @@ function App() {
   const [selectedFile, setSelectedFile] = useState(null);
   // State for upload response message
   const [uploadResponse, setUploadResponse] = useState('');
+  // State to store data fetched from PostgreSQL
+  const [queryData, setQueryData] = useState(null);
 
   // Fetch a test message from the backend on mount
   useEffect(() => {
@@ -48,6 +50,16 @@ function App() {
       });
   };
 
+  // Handler to fetch data from PostgreSQL endpoint
+  const fetchQueryData = () => {
+    fetch('http://localhost:3001/api/data')
+      .then(response => response.json())
+      .then(data => setQueryData(data.data))
+      .catch(error => {
+        console.error('Error fetching query data:', error);
+      });
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -59,6 +71,15 @@ function App() {
           <button type="submit">Upload File</button>
         </form>
         {uploadResponse && <p>Upload response: {uploadResponse}</p>}
+        <button onClick={fetchQueryData}>
+          Fetch PostgreSQL Data
+        </button>
+        {queryData && (
+          <div>
+            <h3>Query Data:</h3>
+            <pre>{JSON.stringify(queryData, null, 2)}</pre>
+          </div>
+        )}
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
